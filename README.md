@@ -1,4 +1,4 @@
-# Resume
+# Professional Resume
 
 This is my professional resume. I know I have a lot to learn! But I'm working hard on it!
 
