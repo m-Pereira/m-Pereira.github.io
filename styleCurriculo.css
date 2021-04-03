@@ -1,66 +1,68 @@
-body{
-  position: absolute;
-  width: 90%; 
-  min-width: 750px;
-  margin: 40px;
+body {
   background: #dcdcdc;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto Slab', serif;
 }
 
-h1{
+h1 {
   margin: 0 0 0 20px;
   font-size: 700;
-  font-family: 'Roboto Slab', serif;
   top: 15px;
 }
 
-h2{
+h2 {
   margin: 3px 0 0 20px;
   border-bottom: 3px;
   font-size: 400;
-  font-family: 'Roboto Slab', serif;
 }
 
-ul{
+ul {
   margin: 15px 0 30px 30px;
   list-style: circle;
 }
 
-p{
+p {
   margin: 15px 0 30px 50px;
 }
 
-a{
-  font-weight: bold;
-  color: gray;
+a {
+  color: #06c;
   text-decoration: none;
 }
 
-a:hover{
+a:hover,
+a:focus {
   color: #06c;
+  border: 1px solid #06c;
+  border-radius: 4px;
 }
 
-.profile-photo{
-  width: 200px;
-  height: 200px;
-  position: relative;
-  top:15px;
-  float: right;
+.container-fluid {
+  align-items: center;
+}
+
+.profile-photo {
+  width: 180px;
+  height: 180px;
   transform: rotate(270deg);
   -moz-transform: rotate(270deg);
   -ms-transform: rotate(270deg); /* IE 9 */
   -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
-  transform: rotate(270deg);
+  transform: rotate(0deg);
   border: solid 3px #b3b3b3;
   padding: 1px;
 }
 
 .identified {
-  margin-left: 20px;  
+  margin-left: 20px;
 }
 
-#text {
-  font-family: 'Overpass', sans-serif;
-  font-size: 300; 
-  color: #3b3b3b;
+#photo-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
-
