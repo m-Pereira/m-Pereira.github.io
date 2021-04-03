@@ -1,7 +1,6 @@
 body {
   background: #dcdcdc;
   width: 100%;
-  max-width: 750px;
   margin: 0 auto;
   padding: 0;
   font-family: 'Roboto Slab', serif;
@@ -11,13 +10,18 @@ h2 {
   margin-left: 20px;
 }
 
-ul {
-  margin-left: 30px;
-  list-style: circle;
-}
-
 p {
   margin-left: 40px;
+}
+
+ul {
+  margin-left: 40px;
+  padding-left: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 2px;
 }
 
 a {
@@ -32,8 +36,11 @@ a:focus {
 }
 
 .container-fluid {
+  max-width: 750px;
   align-items: center;
   padding-top: 30px;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .profile-photo {
