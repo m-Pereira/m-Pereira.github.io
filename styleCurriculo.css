@@ -7,41 +7,33 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
-h1 {
-  margin: 0 0 0 20px;
-  font-size: 700;
-  top: 15px;
-}
-
 h2 {
-  margin: 3px 0 0 20px;
-  border-bottom: 3px;
-  font-size: 400;
+  margin-left: 20px;
 }
 
 ul {
-  margin: 15px 0 30px 30px;
+  margin-left: 30px;
   list-style: circle;
 }
 
 p {
-  margin: 15px 0 30px 50px;
+  margin-left: 40px;
 }
 
 a {
-  color: #06c;
-  text-decoration: none;
+  color: #535256;
+  text-decoration: underline;
+  padding: 2px 2px;
 }
 
 a:hover,
 a:focus {
   color: #06c;
-  border: 1px solid #06c;
-  border-radius: 4px;
 }
 
 .container-fluid {
   align-items: center;
+  padding-top: 30px;
 }
 
 .profile-photo {
@@ -54,10 +46,6 @@ a:focus {
   transform: rotate(0deg);
   border: solid 3px #b3b3b3;
   padding: 1px;
-}
-
-.identified {
-  margin-left: 20px;
 }
 
 #photo-col {
