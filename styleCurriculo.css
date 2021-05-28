@@ -35,6 +35,10 @@ a:focus {
   color: #06c;
 }
 
+.top {
+  margin-left: 20px;
+}
+
 .container-fluid {
   max-width: 750px;
   align-items: center;
