@@ -48,7 +48,7 @@ a:focus {
 }
 
 .profile-photo {
-  width: 180px;
+  width: auto;
   height: 180px;
   transform: rotate(270deg);
   -moz-transform: rotate(270deg);
